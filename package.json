@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "start": "nodemon"
+  },
+  "name": "20180408_235406",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "repository": "https://github.com/GossJS/console_js_demo.git",
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  }
+}
