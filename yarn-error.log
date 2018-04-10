@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js add bodyparser
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js add mongoouse
 
 PATH: 
   /opt/local/bin:/opt/local/sbin:/Users/error/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
@@ -33,6 +33,7 @@ npm manifest:
     },
     "dependencies": {
       "axios": "^0.18.0",
+      "body-parser": "^1.18.2",
       "express": "^4.16.3",
       "pug": "^2.0.3"
     }
@@ -336,7 +337,7 @@ Lockfile:
     dependencies:
       inherits "~2.0.0"
   
-  body-parser@1.18.2:
+  body-parser@1.18.2, body-parser@^1.18.2:
     version "1.18.2"
     resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.18.2.tgz#87678a19d84b47d859b83199bd59bce222b10454"
     dependencies:
@@ -3311,7 +3312,7 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: Couldn't find package "bodyparser" on the "npm" registry.
+  Error: Couldn't find package "mongoouse" on the "npm" registry.
       at new MessageError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:186:110)
       at NpmResolver.<anonymous> (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:51625:15)
       at Generator.next (<anonymous>)
