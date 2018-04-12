@@ -35,11 +35,8 @@ module.exports = (x) => {
 			
 			await xuser.save();
 
-			r.res.send('YOU ARE HI!\n');
+			r.res.send('YOU ARE PUT IN!\n');
 		});
-
-		// user = {login: 'aaa'}
-		//await User.deleteOne(user)
 
 	return rtr;
 }
