@@ -13,3 +13,4 @@ const UserSchema = new mongoose.Schema({
 
 UserSchema.pre('save', n => console.log('saved') || n());
 module.exports = conn.model(null, UserSchema);
+//module.exports = User;
